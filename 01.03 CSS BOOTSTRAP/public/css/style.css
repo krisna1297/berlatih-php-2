@@ -1,0 +1,66 @@
+body {
+    background-image: url("../img/pattern.jpg");
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    background-image: url("../img/pattern.jpg");
+}
+#logo {
+    float: left;
+}
+.navi-top {
+    float: right;
+    font-size: smaller;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navi-top ul li {
+    display: inline-block;    
+    font-weight: bold;
+    margin: 5px 20px 0 0;
+}
+
+.navi-top-search {
+    margin: -10px 20px 0 0;
+}
+
+.navi-main {
+    font-weight: bolder;
+    background-color: lightgray;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navi-main a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container-main {
+    margin: 0 20px 0 20px;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.jumbotron {
+    background-image: url('../img/jumbo2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+.jumbotron h1 {
+    font-weight: bolder;
+}
