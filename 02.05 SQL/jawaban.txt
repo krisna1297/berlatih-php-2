@@ -24,7 +24,7 @@ CREATE TABLE `items` (
 	`stock` INT,
 	`category_id` INT,
 	PRIMARY KEY (`id`),
-	CONSTRAINT `fk_category` FOREIGN KEY (`id`) REFERENCES `categories`(`id`)
+	CONSTRAINT `fk_category` FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`)
 );
 
 3.
